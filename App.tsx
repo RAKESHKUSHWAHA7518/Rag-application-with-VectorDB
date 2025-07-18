@@ -112,7 +112,7 @@ const App: React.FC = () => {
         <div className="min-h-screen flex flex-col items-center justify-center p-4 sm:p-6 bg-base-100 font-sans">
             <div className="w-full max-w-4xl mx-auto">
                 <header className="text-center mb-8">
-                    <h1 className="text-4xl sm:text-5xl font-bold text-text-primary tracking-tight">Intelligent Document Chat</h1>
+                    <h1 className="text-4xl sm:text-5xl font-bold text-text-primary tracking-tight">AskMyDoc</h1>
                     <p className="mt-2 text-lg text-text-secondary">Upload a PDF and ask questions about its content.</p>
                 </header>
 
