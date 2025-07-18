@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intelligent Document Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#1e40af', // A deep blue
+              'brand-secondary': '#3b82f6', // A lighter, vibrant blue
+              'base-100': '#1f2937', // Dark gray for background
+              'base-200': '#374151', // Slightly lighter gray
+              'base-300': '#4b5563', // Even lighter gray for borders/dividers
+              'text-primary': '#f3f4f6', // Off-white for main text
+              'text-secondary': '#9ca3af', // Gray for secondary text
+            },
+          },
+        },
+      }
+    </script>
+    <!-- PDF.js library is now imported in App.tsx -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.3.136/pdf.min.mjs" type="module"></script> -->
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.9.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-base-100 text-text-primary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

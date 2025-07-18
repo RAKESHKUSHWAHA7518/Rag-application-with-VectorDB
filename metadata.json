@@ -1,0 +1,5 @@
+{
+  "name": "Intelligent Document Chat (RAG)",
+  "description": "An application that allows users to upload a PDF document, processes and embeds its content, and enables a chat-based Q&A interface to query the document's knowledge base using a large language model.",
+  "requestFramePermissions": []
+}
