@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef, useEffect } from 'react';
+import React, { useState,  useRef, useEffect } from 'react';
 import { AppState, DocumentChunk, ChatMessage } from './types.ts';
 import { CHUNK_SIZE, CHUNK_OVERLAP } from './constants.ts';
 import { InMemoryVectorDB } from './services/vectorDb.ts';
